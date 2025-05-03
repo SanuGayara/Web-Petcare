@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.appointments-wrapper {
+  min-height: 100vh;
+  padding: 60px 20px;
+  background:white; /* Darker gradient */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.glass-card {
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 80px;
+  padding: 40px;
+  background:  rgba(131, 43, 43, 0.15); /* More visible glass */
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: black;
+  text-align: center;
+}
+
+.glass-card h2 {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+  color: black;
+  font-weight: 700;
+}
+
+.glass-card p {
+  font-size: 1.1rem;
+  color:gray ;
+  margin-bottom: 25px;
+}
+
+.rbc-calendar {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  overflow: hidden;
+  color: #222; /* Ensures text inside calendar is readable */
+}
+
+/* Calendar buttons and header text */
+.rbc-toolbar button {
+  background: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0 2px;
+  border: none;
+  font-weight: bold;
+}
+
+.rbc-toolbar button:hover {
+  background:rgb(172, 71, 71);
+}
+
+.rbc-toolbar-label {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color:black;
+}
+
+.rbc-event {
+  transition: transform 0.2s ease;
+}
+
+.rbc-event:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.modal {
+  background: #ffffff;
+  padding: 30px;
+  max-width: 400px;
+  margin: 100px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal h2 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.modal input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.modal-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.modal-btns button {
+  padding: 8px 16px;
+  border: none;
+  background: #4caf50;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-btns button[type="button"] {
+  background: #ccc;
+  color: #333;
+}

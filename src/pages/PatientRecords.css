@@ -1,0 +1,151 @@
+.digital-record-page {
+  min-height: 100vh;
+  padding: 50px 20px;
+  background: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.glass-panel {
+  max-width: 1200px;
+  margin-top: 100px;
+  margin-left: 80px;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(192, 93, 93, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+
+.glass-panel h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.glass-panel p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #555;
+}
+
+.glass-panel input[type="text"] {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.glass-panel input[type="text"]:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.record-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.record-table thead {
+  background-color: rgb(145, 116, 126);
+  color: white;
+}
+
+.record-table th,
+.record-table td {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.record-table tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.record-table tr:hover {
+  background-color: #f0f8ff;
+  transition: background 0.3s ease;
+}
+
+.no-records {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}
+
+.loading {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding: 20px;
+  color: #444;
+}
+
+.create-btn {
+  background-color: black;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  height: 50px;
+}
+
+.create-record-form {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  backdrop-filter: blur(8px);
+}
+
+.create-record-form input,
+.create-record-form select,
+.create-record-form textarea {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+}
+
+.modal-btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.modal-btns button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-btns button:first-child {
+  background-color: black;
+  color: #fff;
+}
+
+.modal-btns button:last-child {
+  background-color: #e53935;
+  color: #fff;
+}

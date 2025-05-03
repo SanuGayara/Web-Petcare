@@ -1,0 +1,59 @@
+.emergency-contact-container {
+    max-width: 800px;
+    margin-top: 95px;
+    margin-bottom: 80px;
+    margin-left: 350px;
+    background-color:  rgba(192, 93, 93, 0.15);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .emergency-title {
+    text-align: center;
+    color:black;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+  }
+  
+  .contact-section {
+    margin-bottom: 25px;
+  }
+  
+  .contact-section h2 {
+    color: #457b9d;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section p,
+  .contact-section a {
+    font-size: 1.1rem;
+    color: #1d3557;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .advice-section {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .advice-section h2 {
+    color: #e76f51;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .advice-section p {
+    font-size: 1.1rem;
+    color: #264653;
+    line-height: 1.6;
+  }
+  

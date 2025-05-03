@@ -1,0 +1,17 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  /* Ensure content expands to fill space but keeps footer at bottom */
+  .content {
+    flex-grow: 1;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    
+  }
